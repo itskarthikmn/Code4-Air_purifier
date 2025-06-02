@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!-- Air Quality Recommendations -->
+    <category>
+        <pattern>AIR Air quality is good</pattern>
+        <template>Air quality is excellent. Maintaining minimal purification is sufficient.</template>
+    </category>
+    
+    <category>
+        <pattern>AIR Moderate air quality</pattern>
+        <template>Air quality needs attention. Increasing purification to maintain healthy levels.</template>
+    </category>
+    
+    <category>
+        <pattern>AIR Poor air quality</pattern>
+        <template>Air quality is concerning. Operating at maximum purification to improve conditions.</template>
+    </category>
+    
+    <category>
+        <pattern>AIR * High traffic</pattern>
+        <template>High traffic detected. Intensifying filtration to combat vehicle emissions.</template>
+    </category>
+    
+    <!-- Energy Recommendations -->
+    <category>
+        <pattern>ENERGY Air quality is good</pattern>
+        <template>Operating in eco-mode to conserve energy while maintaining air quality.</template>
+    </category>
+    
+    <category>
+        <pattern>ENERGY Moderate air quality</pattern>
+        <template>Balanced power usage to optimize air quality and energy consumption.</template>
+    </category>
+    
+    <category>
+        <pattern>ENERGY Poor air quality</pattern>
+        <template>High power mode activated to address poor air quality. Consider closing windows.</template>
+    </category>
+    
+    <!-- Weather-based Recommendations -->
+    <category>
+        <pattern>WEATHER High temperature</pattern>
+        <template>High temperature detected. Adjusting fan speed for optimal cooling effect.</template>
+    </category>
+    
+    <category>
+        <pattern>WEATHER Low temperature</pattern>
+        <template>Low temperature detected. Maintaining steady airflow to prevent stuffiness.</template>
+    </category>
+    
+    <!-- Combined Conditions -->
+    <category>
+        <pattern>AIR Poor air quality High traffic</pattern>
+        <template>Critical air quality with high traffic. Maximum purification mode engaged.</template>
+    </category>
+    
+    <category>
+        <pattern>ENERGY Poor air quality High traffic</pattern>
+        <template>Operating at peak power to combat heavy pollution from traffic.</template>
+    </category>
+    
+    <category>
+        <pattern>WEATHER Poor air quality High temperature</pattern>
+        <template>Poor air quality in high temperature. Maximizing airflow and filtration.</template>
+    </category>
+</aiml>
